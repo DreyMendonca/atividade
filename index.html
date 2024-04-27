@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Fitness</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 40px;
+        }
+        aside {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        input[type=text], input[type=email], textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .img-container {
+            text-align: center;
+        }
+        .img-container img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Academia Fitness</h1>
+    <nav>
+        <ul>
+            <li><a href="#destaque">Destaque</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="destaque">
+    <div class="img-container">
+        <img src="images/academia.avif" alt="Destaque">
+    </div>
+    <h2>Seção de Destaque</h2>
+    <p>Destaque as principais vantagens da sua academia aqui.</p>
+</section>
+
+<section id="recursos">
+    <h2>Recursos</h2>
+    <aside>
+        <h3>Aulas de Grupo</h3>
+        <p>Nossas aulas incluem yoga, pilates, spinning, Zumba e muito mais!</p>
+    </aside>
+    <aside>
+        <h3>Área de Musculação</h3>
+        <p>Equipamentos de musculação modernos e treinadores disponíveis para ajudá-lo a alcançar seus objetivos de força.</p>
+    </aside>
+    <aside>
+        <h3>Avaliação Física</h3>
+        <p>Oferecemos avaliações físicas personalizadas para acompanhar seu progresso e ajustar seu programa de treinamento conforme necessário.</p>
+    </aside>
+</section>
+
+<section id="depoimentos">
+    <h2>Depoimentos</h2>
+    <blockquote>
+        <p>"Esta academia mudou minha vida! Estou mais saudável, mais forte e mais feliz do que nunca."</p>
+        <cite> - Joana</cite>
+    </blockquote>
+    <blockquote>
+        <p>"Ótimo ambiente, ótimos instrutores, ótimos resultados. Recomendo a todos!"</p>
+        <cite> - Pedro</cite>
+    </blockquote>
+</section>
+
+<footer id="contato">
+    <h2>Entre em Contato</h2>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</footer>
+</body>
+</html>
